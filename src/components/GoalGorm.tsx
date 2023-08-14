@@ -39,7 +39,7 @@ export const IconModal = ({ id, children }: IconModalProps) => {
 
     return (
         <>
-            <button onClick={showModal}>I</button>
+            <button onClick={showModal}>Edit</button>
             <dialog id={id} className="modal">
                 <form method="dialog" className="modal-box">
                     <button formMethod="dialog" className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
